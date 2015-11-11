@@ -1,0 +1,12 @@
+/* CSS placed here will affect users of the Vector skin */
+
+
+
+/* the next paragraph renders the sidbar(=panel) to 200px width for better use with my new TOC */
+div#mw-panel { width: 200px; }
+div#footer, #mw-head-base, div#content { margin-left: 200px; }
+#left-navigation { margin-left: 200px; }
+
+
+/* this one gives the following portals a padding, so they'll show up under the fixed TOC */
+div#mw-panel div.portal {padding-top: 1.5em; }
